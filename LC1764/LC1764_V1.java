@@ -1,7 +1,4 @@
 package com.company.LC1764;
-
-import com.company.LC1351.LC1351_V1;
-
 import java.util.Arrays;
 
 public class LC1764_V1 {
