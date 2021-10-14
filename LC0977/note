@@ -1,0 +1,5 @@
+这是一道简单题。
+思想非常简单。首先可以很快的写出暴力求解的方法，提交通过（LC0977_V1.java）。
+思考，虽然输入的数组是非递减的数组，但正数和负数都是分别有序的，平方之后，最大的数只可能是nums[0]或nums[nums.length-1]的平方，因此可以用双指针法。
+新建一个和nums一样长度的数组newNums，设置两个指针start和end，start从nums[0]开始检索，end从nums[nums.length-1]开始检索。
+当start<=end时，比较nums【start]和nums[end]的平方，在newNums的末尾处填入较大的值，并将相应的指针向相应的方向移动一位。即可完成解答（LC0977_V2.java）。
