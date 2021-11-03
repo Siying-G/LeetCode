@@ -1,0 +1,3 @@
+首先用HashMap存储magazine字符串中的字母及其出现的次数
+再遍历ransomNote的字母，并在HashMap中查找并将相应的value-1，若HashMap中不存在查找的字符，则返回false，若顺利遍历完毕返回true。
+提交LC0383_V1.java发现上述想法的时间与空间消耗较大，有一种巧妙的方法，不使用HashMap，而将String转成StringBuilder，直接对字符串操作，更加简单有效（LC0383_V2.java）。
