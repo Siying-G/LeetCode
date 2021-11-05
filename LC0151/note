@@ -1,2 +1,3 @@
+这道题对于java语言来说没法做到原地操作，因为java中string是不可修改的。
 采用了双指针，从后往前遍历字符串，一个指针指向单词头，另一个指向单词尾。
 一旦两个指针找到了对应的位置，就利用substring，将该单词添加到StringBuffer中，最后返回StringBuffer.toString()
