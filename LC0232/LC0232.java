@@ -1,4 +1,4 @@
-package com.company.LC232;
+package com.company.LC0232;
 
 
 import java.util.Stack;
